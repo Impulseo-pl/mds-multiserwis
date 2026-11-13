@@ -20,146 +20,309 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "MDS Multiserwis", "url": "https://kris20032.github.io/mds-multiserwis/", "telephone": "+48733123294", "image": "https://kris20032.github.io/mds-multiserwis/img/og.jpg", "areaServed": "Przygradów", "sameAs": ["https://www.facebook.com/p/MDS-Multiserwis-61585844955465/"]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=4f0861a6">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,900&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=sw1">
 <meta name="nb-deploy" content="00809fe85aee">
+<meta name="theme-color" content="#128592">
 </head>
 <body>
 
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand brand-has-logo" href="index.html"><img class="brand-logo" src="img/logo.jpg" alt="MDS Multiserwis" width="1023" height="1023" decoding="async"></a>
-    <nav class="nav-links">
+<header class="site-header" id="top-bar">
+  <div class="sh-in">
+    <a class="brand" href="index.html"><img class="brand-logo" src="img/logo.jpg" alt="MDS Multiserwis - logo" width="1023" height="1023" decoding="async"><span>MDS<small>MULTISERWIS</small></span></a>
+    <nav class="sh-links" aria-label="Menu">
       <a href="oferta.html">Oferta</a>
       <a href="realizacje.html">Realizacje</a>
-      <a href="o-nas.html">O nas</a>
+      <a href="o-nas.html">O nas</a>
       <a href="kontakt.html">Kontakt</a>
-      <a href="tel:+48733123294" class="btn btn-accent">Zadzwoń +48 733 123 294</a>
     </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <div class="sh-cta"><a class="tel" href="tel:+48733123294">+48 733 123 294</a><a class="btn btn-glow btn-sm" href="kontakt.html">Zapytaj o wycenę</a></div>
+    <button class="burger" type="button" aria-label="Otwórz menu" data-menu><span></span><span></span><span></span></button>
   </div>
 </header>
+<div class="mnav" id="mnav" aria-hidden="true">
+  <div class="mnav-top"><span class="brand" style="color:#fff">MDS<small>MULTISERWIS</small></span><button class="mnav-close" type="button" aria-label="Zamknij menu" data-menu-close>×</button></div>
+  <nav>
+    <a href="index.html">Start<span>→</span></a>
+    <a href="oferta.html">Oferta<span>→</span></a>
+    <a href="realizacje.html">Realizacje<span>→</span></a>
+    <a href="o-nas.html">O nas<span>→</span></a>
+    <a href="kontakt.html">Kontakt<span>→</span></a>
+  </nav>
+  <a class="btn btn-glow" href="tel:+48733123294"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń +48 733 123 294</a>
+</div>
 
 <main>
-<section class="hero-fach">
-  <img class="hf-photo" src="img/hero.jpg" fetchpriority="high" alt="MDS Multiserwis" width="2048" height="1533">
-  <div class="hf-panel">
-    <div class="hf-inner">
-      <span class="hf-kicker">Konstrukcje · Hale · Montaże</span>
-      <h1 class="hf-title">Hale, garaże i konstrukcje stalowe <em>zmontowane do końca</em></h1>
-      <p class="hf-lead">Montujemy i naprawiamy hale, garaże, wiaty i zadaszenia. Konstrukcje stalowe, płyty warstwowe, obróbki i poszycia.</p>
-      <a class="hf-phone" href="tel:+48733123294"><span class="hf-phone-lab">Zadzwoń teraz</span><span class="hf-phone-num"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> +48 733 123 294</span></a>
-      <div class="hf-actions">
-        <a href="kontakt.html" class="btn btn-accent">Zapytaj o wycenę <span class="arr">→</span></a>
-        <a href="tel:+48733123294" class="btn btn-ghost hf-ghost">Zadzwoń +48 733 123 294</a>
-      </div>
+<section class="hero" id="hero">
+  <img class="hero-bg" src="img/hero.jpg" alt="Hala namiotowa zmontowana przez MDS Multiserwis" width="2048" height="1533" fetchpriority="high">
+  <div class="hero-top">
+    <div class="wordmark" aria-hidden="true"><span>M</span><span>U</span><span>L</span><span>T</span><span>I</span><span>S</span><span>E</span><span>R</span><span>W</span><span>I</span><span>S</span></div>
+    <div class="wordmark-sub" aria-hidden="true"><span>MDS</span><span>Konstrukcje · Hale · Montaże</span><span>Przygradów</span></div>
+    <div class="hero-nav">
+      <nav class="hero-links" aria-label="Menu główne">
+        <a href="oferta.html">Oferta</a>
+        <a href="realizacje.html">Realizacje</a>
+        <a href="o-nas.html">O nas</a>
+        <a href="#opinie">Opinie</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+      <div class="hero-cta"><a class="btn btn-glow btn-sm" href="kontakt.html">Zapytaj o wycenę</a><a class="tel" href="tel:+48733123294">+48 733 123 294</a></div>
+      <button class="burger" type="button" aria-label="Otwórz menu" data-menu><span></span><span></span><span></span></button>
     </div>
   </div>
-</section>
-<section class="fach-promise">
-  <div class="wrap">
-    <ul class="fp-row reveal"><li>Jasne ustalenia przed startem</li><li>Własne narzędzia i ekipa</li><li>Czytamy dokumentację techniczną</li></ul>
-  </div>
-</section>
-<section class="gateways-band">
-  <div class="wrap">
-    <div class="gateways">
-      <a href="oferta.html" class="gateway reveal"><img src="img/g1.jpg" alt="Konstrukcje stalowe" loading="lazy" width="2048" height="1533" decoding="async"><span class="g-ttl">Konstrukcje stalowe</span></a>
-      <a href="oferta.html" class="gateway reveal"><img src="img/g2.jpg" alt="Hale, garaże, wiaty" loading="lazy" width="1448" height="1084" decoding="async"><span class="g-ttl">Hale, garaże, wiaty</span></a>
-      <a href="oferta.html" class="gateway reveal"><img src="img/g3.jpg" alt="Płyty warstwowe i obróbki" loading="lazy" width="2048" height="1533" decoding="async"><span class="g-ttl">Płyty warstwowe i obróbki</span></a>
+  <div class="hero-body">
+    <h1>Hale, garaże i konstrukcje stalowe zmontowane do końca</h1>
+    <p class="hero-lead">Montujemy i naprawiamy hale, garaże, wiaty i zadaszenia. Konstrukcje stalowe, płyty warstwowe, obróbki i poszycia, od pierwszej rozmowy do odbioru.</p>
+    <div class="hero-actions">
+      <a class="btn btn-glow" href="kontakt.html">Zapytaj o wycenę</a>
+      <a class="btn btn-line" href="tel:+48733123294">Zadzwoń: +48 733 123 294</a>
     </div>
   </div>
-</section>
-<section class="proces proces-os fachowcy">
-  <div class="wrap proc-grid">
-    <div class="proc-side">
-      <div class="head reveal">
-        <span class="eyebrow">Jak pracujemy</span>
-        <h2>Wiesz, na czym stoisz - na każdym etapie</h2>
-        <p>Od pierwszego telefonu do odbioru roboty - krok po kroku.</p>
-      </div>
-      <div class="proc-count" aria-hidden="true"><span class="pc-cur">01</span><span class="pc-all">/ 04</span></div>
-      <div class="proc-bar" aria-hidden="true"><i></i></div>
-      <p class="proc-now" aria-hidden="true">Rozmowa</p>
-    </div>
-    <ol class="proces-line">
-      <li class="reveal"><span class="pno">01</span><h3>Rozmowa</h3><p>Dzwonisz albo piszesz: co jest do zrobienia, gdzie i w jakim terminie.</p></li>
-      <li class="reveal"><span class="pno">02</span><h3>Ustalenie zakresu</h3><p>Przyjeżdżamy albo przeglądamy dokumentację i ustalamy dokładnie, co wchodzi w zakres.</p></li>
-      <li class="reveal"><span class="pno">03</span><h3>Wycena</h3><p>Dostajesz konkretną wycenę przed rozpoczęciem pracy, bez względu na to, czy to jeden dzień naprawy, czy duży montaż.</p></li>
-      <li class="reveal"><span class="pno">04</span><h3>Realizacja</h3><p>Przyjeżdżamy z własnymi narzędziami i doprowadzamy montaż do końca w ustalonym terminie.</p></li>
-    </ol>
-  </div>
-</section>
-<section>
-  <div class="wrap">
-    <div class="head reveal">
-      <span class="eyebrow">Realizacje</span>
-      <h2>Nasze realizacje</h2>
-      <p>Hale namiotowe, garaże z płyt warstwowych, elewacje i przygotowanie terenu - zdjęcia z naszych montaży.</p>
-    </div>
-    <div class="gallery">
-      <div class="tile t-two3 reveal"><img src="img/g4.jpg" alt="MDS Multiserwis" loading="lazy" width="2048" height="1533" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g5.jpg" alt="MDS Multiserwis" loading="lazy" width="1464" height="1984" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g6.jpg" alt="MDS Multiserwis" loading="lazy" width="1400" height="1048" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g7.jpg" alt="MDS Multiserwis" loading="lazy" width="1400" height="1050" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g8.jpg" alt="MDS Multiserwis" loading="lazy" width="1400" height="1048" decoding="async"></div>
-    </div>
-    <div style="margin-top:var(--space-7)" class="reveal"><a href="realizacje.html" class="btn btn-accent">Pełna galeria <span class="arr">→</span></a></div>
-  </div>
-</section>
-<section class="fach-uslugi">
-  <div class="wrap">
-    <div class="head reveal">
-      <span class="eyebrow">Co robimy</span>
-      <h2>Montaże, konstrukcje i prace budowlane</h2>
-      <p>Zakres prac, jaki robimy najczęściej - pełny opis i wycenę znajdziesz niżej.</p>
-    </div>
-    <ul class="fu-list">
-      <li class="fu-row reveal"><div class="fu-name">Konstrukcje stalowe</div><div class="fu-desc">Montaż i demontaż konstrukcji stalowych. Pracujemy według dokumentacji technicznej, a gdy na budowie wychodzi coś nieprzewidzianego, szukamy praktycznego rozwiązania.</div><a class="fu-cta" href="kontakt.html">Wycena <span class="arr">→</span></a></li>
-      <li class="fu-row reveal"><div class="fu-name">Hale, garaże, wiaty</div><div class="fu-desc">Montaż i naprawy hal, garaży, wiat i zadaszeń, także hal namiotowych na łukowej konstrukcji.</div><a class="fu-cta" href="kontakt.html">Wycena <span class="arr">→</span></a></li>
-      <li class="fu-row reveal"><div class="fu-name">Płyty warstwowe i obróbki</div><div class="fu-desc">Montaż płyt warstwowych na ścianach i dachach razem z obróbkami, drzwiami i bramami w obudowie z płyt.</div><a class="fu-cta" href="kontakt.html">Wycena <span class="arr">→</span></a></li>
-      <li class="fu-row reveal"><div class="fu-name">Poprawki dachów i ścian</div><div class="fu-desc">Naprawy i poprawki poszyć dachowych oraz ściennych, kiedy coś przecieka, odstaje albo zostało źle zamontowane.</div><a class="fu-cta" href="kontakt.html">Wycena <span class="arr">→</span></a></li>
-      <li class="fu-row reveal"><div class="fu-name">Przygotowanie terenu</div><div class="fu-desc">Przygotowanie terenu pod garaże i konstrukcje: wyrównanie, podbudowa i obrzeże pod posadowienie.</div><a class="fu-cta" href="kontakt.html">Wycena <span class="arr">→</span></a></li>
-      <li class="fu-row reveal"><div class="fu-name">Prace nietypowe</div><div class="fu-desc">Montaż gotowych konstrukcji i altan, prace remontowe i techniczne. Masz coś nietypowego do zrobienia - zapytaj.</div><a class="fu-cta" href="kontakt.html">Wycena <span class="arr">→</span></a></li>
+  <div class="factbar">
+    <ul>
+      <li><b>5,0 <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg></b>ocena na Oferteo</li>
+      <li><b>4 z 4</b>opinie na pięć gwiazdek</li>
+      <li><b>Hale</b>namiotowe i z płyt</li>
+      <li><b>Przygradów</b>baza w świętokrzyskim</li>
+      <li class="fb-right"><a href="https://www.oferteo.pl/mds-multiserwis-spolka-z-ograniczona-odpowiedzialnoscia/firma/7726890" target="_blank" rel="noopener">Profil na Oferteo ↗</a></li>
     </ul>
-    <div style="margin-top:var(--space-7)" class="reveal"><a href="oferta.html" class="btn btn-ghost">Pełna oferta <span class="arr">→</span></a></div>
   </div>
 </section>
-<section class="stopklatka" aria-hidden="true">
-  <div class="stk-bg" style="background-image:url(img/about.jpg)"></div>
-</section>
-<section class="opinie op-fallback">
-  <div class="wrap">
-    <div class="head center reveal">
-      <span class="eyebrow">Opinie</span>
-      <h2>Co mówią klienci</h2>
-      <p>Na Oferteo klienci ocenili nas na 5,0 w czterech opiniach. Piszą o terminowości, konkretnym kontakcie i solidnej robocie.</p>
-    </div>
-  </div>
-</section>
-<section class="obszar">
-  <div class="wrap">
-    <div class="head center reveal">
-      <span class="eyebrow">Obszar działania</span>
-      <h2>Dojeżdżamy do Ciebie</h2>
-    </div>
-    <p class="obszar-txt reveal" style="text-align:center;max-width:60ch;margin:0 auto 1.4rem">Baza firmy jest w Przygradowie w województwie świętokrzyskim. Obsługujemy klientów indywidualnych, firmy i generalnych wykonawców, a zasięg dojazdu ustalamy przy wycenie.</p>
-    <ul class="obszar-list reveal"><li class="is-home">Przygradów</li><li>+ okolice</li></ul>
-    <div class="obszar-mapa reveal" style="margin-top:var(--space-7)">
-      <iframe title="Obszar działania - Przygradów i okolice" src="https://maps.google.com/maps?q=MDS%20Multiserwis%20Przygrad%C3%B3w&amp;z=11&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width:100%;height:clamp(280px,38vh,420px);border:0;display:block;border-radius:var(--r-md)"></iframe>
-    </div>
-  </div>
-</section>
-<section class="cta">
-  <div class="wrap">
+
+<section class="sec bg-paper">
+  <div class="wrap about">
     <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Masz halę albo konstrukcję do zmontowania?</h2>
-      <p>Odezwij się - omówimy zakres i przedstawimy konkretną wycenę.</p>
+      <span class="eyebrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 7.2 8 3l6 4.2M2 10.6 8 6.4l6 4.2M2 14 8 9.8l6 4.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>O nas</span>
+      <h2>Przyjeżdżamy, ustalamy zakres i kończymy robotę.</h2>
+      <p>Zaczynamy od rozmowy i oględzin albo od dokumentacji. Ustalamy, co wchodzi w zakres, na kiedy ma być gotowe i ile to kosztuje, i dopiero wtedy ruszamy z montażem.</p>
+      <p>Na plac przyjeżdżamy z własnym sprzętem. Ekipa zna realia budowy, więc gdy coś nie zgadza się z projektem, szukamy rozwiązania na miejscu, zamiast zostawiać problem inwestorowi.</p>
+      <div class="about-actions">
+        <a class="btn btn-dark" href="o-nas.html">Poznaj ekipę</a>
+        <a class="link-u" href="realizacje.html">Nasze realizacje <span>→</span></a>
+      </div>
     </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48733123294" class="btn btn-ghost btn-ghost-cta">+48 733 123 294</a>
+    <figure class="fig reveal">
+      <img src="img/about.jpg" alt="Garaż z płyt warstwowych z bramą i drzwiami, realizacja MDS Multiserwis" width="2048" height="1533" loading="lazy" decoding="async">
+      <figcaption><span>Garaż z płyt warstwowych</span><span class="mono">Realizacja · MDS Multiserwis</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="sec bg-white" id="opinie">
+  <div class="wrap">
+    <div class="rev-head reveal">
+      <div>
+        <span class="eyebrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 7.2 8 3l6 4.2M2 10.6 8 6.4l6 4.2M2 14 8 9.8l6 4.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Opinie</span>
+        <h2>Co mówią klienci z Oferteo.</h2>
+      </div>
+      <a class="rating" href="https://www.oferteo.pl/mds-multiserwis-spolka-z-ograniczona-odpowiedzialnoscia/firma/7726890" target="_blank" rel="noopener"><span class="num">5,0</span><span class="src"><span class="stars" aria-label="5 na 5"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg></span><span>Opinie na Oferteo ↗</span></span></a>
+    </div>
+    <div class="rev-grid">
+      <div class="rev-feature reveal">
+        <span class="q" aria-hidden="true">„</span>
+        <blockquote>Świetni fachowcy, konkretni, terminowi i przede wszystkim znają się na swojej robocie.</blockquote>
+        <div class="who"><b>D.</b> · opinia z Oferteo</div>
+        <div class="rev-foot">
+          <p>Konkretna wycena przed startem i jasne ustalenia na każdym etapie.</p>
+          <div class="row"><a class="btn btn-glow" href="kontakt.html">Zapytaj o wycenę</a><a class="btn btn-line-dark" href="tel:+48733123294">+48 733 123 294</a></div>
+        </div>
+      </div>
+      <div class="rev-list reveal">
+        <div class="rev-list-h mono"><span>Opinie klientów · Oferteo</span><span>4 opinie · 5,0</span></div>
+        <div class="rev-scroll">
+          <div class="rev-track">
+          <div class="rev-item"><p>„Bardzo polecam tę ekipę! Świetni fachowcy, konkretni, terminowi i przede wszystkim znają się na swojej robocie. Wszystko wykonane dokładnie i zgodnie z ustaleniami. Dobry kontakt, sprawna realizacja i pełen profesjonalizm. Zdecydowanie jedna z lepszych ekip, z jakimi miałem okazję współpracować. Na pewno skorzystam ponownie!”</p><div class="meta"><span class="stars" aria-label="5 na 5"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg></span><b>D.</b><span>opinia z Oferteo</span></div></div>
+          <div class="rev-item"><p>„Świetna firma i bardzo profesjonalna obsługa. Wszystko przebiegło sprawnie i bez żadnych problemów. Miły kontakt, fachowe podejście i pełne zaangażowanie. Widać, że zależy im na zadowoleniu klienta. Zdecydowanie polecam!”</p><div class="meta"><span class="stars" aria-label="5 na 5"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg></span><b>A.</b><span>opinia z Oferteo</span></div></div>
+          <div class="rev-item"><p>„Solidna i rzetelna firma. Świetna i terminowa realizacja.”</p><div class="meta"><span class="stars" aria-label="5 na 5"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg></span><b>D.</b><span>opinia z Oferteo</span></div></div>
+          <div class="rev-item" aria-hidden="true"><p>„Bardzo polecam tę ekipę! Świetni fachowcy, konkretni, terminowi i przede wszystkim znają się na swojej robocie. Wszystko wykonane dokładnie i zgodnie z ustaleniami. Dobry kontakt, sprawna realizacja i pełen profesjonalizm. Zdecydowanie jedna z lepszych ekip, z jakimi miałem okazję współpracować. Na pewno skorzystam ponownie!”</p><div class="meta"><span class="stars" aria-label="5 na 5"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg></span><b>D.</b><span>opinia z Oferteo</span></div></div>
+          <div class="rev-item" aria-hidden="true"><p>„Świetna firma i bardzo profesjonalna obsługa. Wszystko przebiegło sprawnie i bez żadnych problemów. Miły kontakt, fachowe podejście i pełne zaangażowanie. Widać, że zależy im na zadowoleniu klienta. Zdecydowanie polecam!”</p><div class="meta"><span class="stars" aria-label="5 na 5"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg></span><b>A.</b><span>opinia z Oferteo</span></div></div>
+          <div class="rev-item" aria-hidden="true"><p>„Solidna i rzetelna firma. Świetna i terminowa realizacja.”</p><div class="meta"><span class="stars" aria-label="5 na 5"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg></span><b>D.</b><span>opinia z Oferteo</span></div></div>
+          </div>
+        </div>
+        <a class="rev-all link-u" href="https://www.oferteo.pl/mds-multiserwis-spolka-z-ograniczona-odpowiedzialnoscia/firma/7726890" target="_blank" rel="noopener">Wszystkie opinie na Oferteo <span>→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec proof">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <span class="eyebrow on-dark"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 7.2 8 3l6 4.2M2 10.6 8 6.4l6 4.2M2 14 8 9.8l6 4.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Realizacje</span>
+        <h2>Robota widoczna na placu.</h2>
+      </div>
+      <p>Zdjęcia z naszych montaży: hale namiotowe, garaże z płyt warstwowych, obudowy i podbudowy. Bez zdjęć z katalogu i bez aranżacji.</p>
+    </div>
+    <div class="viewer reveal" data-viewer data-jobs="Hala namiotowa na łukowej konstrukcji;Hala namiotowa;Łukowa konstrukcja stalowa;Montaż konstrukcji i poszycia|Hala namiotowa z bramą w ścianie szczytowej;Hala namiotowa;Łuk stalowy, plandeka, brama;Montaż hali i ściany szczytowej|Garaż z płyt warstwowych z bramą;Garaż;Płyty warstwowe, brama, drzwi;Obudowa, brama i obróbki|Ściana i dach z płyt warstwowych;Obudowa obiektu;Płyty warstwowe;Płyty ścienne i obróbki|Podbudowa i obrzeże pod garaż;Przygotowanie terenu;Podbudowa z kruszywa, obrzeże;Wyrównanie, podbudowa, obrzeże">
+      <div>
+        <div class="stage">
+          <span class="tag">Realizacja /01</span>
+          <img src="img/g1.jpg" alt="Hala namiotowa na łukowej konstrukcji" width="2048" height="1533" loading="lazy" decoding="async" class="on">
+          <img src="img/g2.jpg" alt="Hala namiotowa z bramą w ścianie szczytowej" width="1448" height="1084" loading="lazy" decoding="async">
+          <img src="img/g8.jpg" alt="Garaż z płyt warstwowych z bramą" width="1400" height="1048" loading="lazy" decoding="async">
+          <img src="img/g3.jpg" alt="Ściana i dach z płyt warstwowych" width="2048" height="1533" loading="lazy" decoding="async">
+          <img src="img/g4.jpg" alt="Podbudowa i obrzeże pod garaż" width="2048" height="1533" loading="lazy" decoding="async">
+        </div>
+        <div class="stage-cap"><span data-cap>Hala namiotowa na łukowej konstrukcji</span><span data-count>01 / 05</span></div>
+        <div class="jobs">
+          <button class="job on" type="button" data-job="0"><span class="mono">Realizacja /01</span><strong>Hala namiotowa</strong></button>
+          <button class="job" type="button" data-job="1"><span class="mono">Realizacja /02</span><strong>Hala z bramą</strong></button>
+          <button class="job" type="button" data-job="2"><span class="mono">Realizacja /03</span><strong>Garaż z płyt</strong></button>
+          <button class="job" type="button" data-job="3"><span class="mono">Realizacja /04</span><strong>Ściana z płyt</strong></button>
+          <button class="job" type="button" data-job="4"><span class="mono">Realizacja /05</span><strong>Podbudowa</strong></button>
+        </div>
+      </div>
+      <aside class="spec">
+        <div class="spec-t" data-title>Realizacja /01 · Hala namiotowa na łukowej konstrukcji</div>
+        <dl>
+          <div><dt>Obiekt</dt><dd data-a>Hala namiotowa</dd></div>
+          <div><dt>Technologia</dt><dd data-b>Łukowa konstrukcja stalowa</dd></div>
+          <div><dt>Zakres prac</dt><dd data-c>Montaż konstrukcji i poszycia</dd></div>
+          <div><dt>Wykonawca</dt><dd>Ekipa MDS Multiserwis</dd></div>
+        </dl>
+        <a class="link-u on-dark" href="realizacje.html">Wszystkie realizacje <span>→</span></a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="sec bg-white">
+  <div class="wrap quote">
+    <div class="reveal">
+      <span class="eyebrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 7.2 8 3l6 4.2M2 10.6 8 6.4l6 4.2M2 14 8 9.8l6 4.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Wycena</span>
+      <h2>Ile kosztuje montaż hali albo garażu?</h2>
+      <p>Każde zlecenie wyceniamy osobno, bez względu na to, czy to jednodniowa naprawa, czy duży montaż. Najpierw ustalamy zakres i termin, a cenę znasz, zanim ruszymy z pracą. Bez jednej kwoty rzuconej na oko.</p>
+      <a class="btn btn-glow" href="kontakt.html">Zapytaj o wycenę</a>
+    </div>
+    <div class="bids reveal" aria-label="Przykład poglądowy: dwie wyceny tej samej hali">
+      <div class="bid bid-b">
+        <div class="bt">Wycena B · ta sama hala</div>
+        <div class="big"><span>„Jakoś to będzie”</span><b>? zł</b></div>
+        <div class="small">Jedna linijka. Zero szczegółów.</div>
+      </div>
+      <div class="bid bid-a">
+        <div class="bt">Wycena MDS · ta sama hala</div>
+        <ul>
+          <li><span>Zakres prac</span><span>ustalony</span></li>
+          <li><span>Dokumentacja techniczna</span><span>przeczytana</span></li>
+          <li><span>Ekipa i narzędzia</span><span>własne</span></li>
+          <li><span>Termin montażu</span><span>ustalony</span></li>
+          <li><span>Wycena</span><span>indywidualna</span></li>
+        </ul>
+        <div class="tot"><span>Cena</span><b>znana przed startem</b></div>
+      </div>
+      <span class="note">Przykład poglądowy</span>
+    </div>
+  </div>
+</section>
+
+<section class="sec bg-paper">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <span class="eyebrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 7.2 8 3l6 4.2M2 10.6 8 6.4l6 4.2M2 14 8 9.8l6 4.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Usługi</span>
+        <h2>Wszystko, czego potrzebuje hala, garaż i wiata.</h2>
+      </div>
+      <div>
+        <p>Od konstrukcji stalowej, przez obudowę z płyt warstwowych, po przygotowanie terenu pod nowy obiekt.</p>
+        <a class="link-u" href="oferta.html">Cała oferta <span>→</span></a>
+      </div>
+    </div>
+    <div class="svc-cards">
+      <article class="svc-card reveal">
+        <a class="svc-top" href="oferta.html">
+          <img src="img/st1.jpg" alt="Szkielet stalowej konstrukcji hali" width="1880" height="1253" loading="lazy" decoding="async">
+          <div class="ttl"><h3>Konstrukcje i hale</h3><span class="arrbox" aria-hidden="true">→</span></div>
+          <p>Montaż i demontaż konstrukcji stalowych, hal, garaży, wiat i zadaszeń.</p>
+        </a>
+        <ul class="svc-sub">
+          <li><h4>Konstrukcje stalowe</h4><p>Montaż i demontaż według dokumentacji technicznej.</p></li>
+          <li><h4>Hale namiotowe</h4><p>Hale na łukowej konstrukcji, także z bramą w ścianie szczytowej.</p></li>
+          <li><h4>Garaże i wiaty</h4><p>Montaż i naprawy garaży, wiat i zadaszeń.</p></li>
+          <li><h4>Gotowe konstrukcje</h4><p>Montaż gotowych konstrukcji, altan i innych elementów.</p></li>
+        </ul>
+      </article>
+      <article class="svc-card reveal">
+        <a class="svc-top" href="oferta.html">
+          <img src="img/st2.jpg" alt="Hala obłożona płytami warstwowymi" width="1880" height="1253" loading="lazy" decoding="async">
+          <div class="ttl"><h3>Płyty, dachy i teren</h3><span class="arrbox" aria-hidden="true">→</span></div>
+          <p>Obudowy z płyt warstwowych, poprawki poszyć i przygotowanie terenu pod obiekt.</p>
+        </a>
+        <ul class="svc-sub">
+          <li><h4>Płyty warstwowe</h4><p>Ściany i dachy z płyt razem z obróbkami, bramami i drzwiami.</p></li>
+          <li><h4>Poprawki dachów i ścian</h4><p>Gdy poszycie przecieka, odstaje albo zostało źle zamontowane.</p></li>
+          <li><h4>Przygotowanie terenu</h4><p>Wyrównanie, podbudowa i obrzeże pod garaż lub konstrukcję.</p></li>
+          <li><h4>Prace nietypowe</h4><p>Prace remontowe i techniczne. Masz coś nietypowego? Zapytaj.</p></li>
+        </ul>
+      </article>
+    </div>
+    <p class="svc-note reveal">Nie wiesz, której usługi potrzebujesz? <a href="kontakt.html">Opisz zadanie</a> albo zapytaj pod numerem <a href="tel:+48733123294">+48 733 123 294</a>.</p>
+  </div>
+</section>
+
+<section class="sec bg-white">
+  <div class="wrap why">
+    <div class="reveal">
+      <span class="eyebrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 7.2 8 3l6 4.2M2 10.6 8 6.4l6 4.2M2 14 8 9.8l6 4.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Dlaczego MDS</span>
+      <h2>Dlaczego klienci wybierają naszą ekipę.</h2>
+      <div class="why-grid">
+        <div><span class="mono">/01</span><h3>Jasne ustalenia</h3><p>Zakres, termin i cenę ustalamy, zanim zaczniemy pracę.</p></div>
+        <div><span class="mono">/02</span><h3>Własna ekipa i narzędzia</h3><p>Przyjeżdżamy z własnym sprzętem i ludźmi, którzy znają pracę na budowie.</p></div>
+        <div><span class="mono">/03</span><h3>Czytamy dokumentację</h3><p>Montujemy według projektu, a niespodzianki na budowie rozwiązujemy praktycznie.</p></div>
+        <div><span class="mono">/04</span><h3>Duże i małe zlecenia</h3><p>Jednodniowa naprawa albo duży montaż hali, każde wyceniamy osobno.</p></div>
+      </div>
+    </div>
+    <figure class="why-photo reveal">
+      <img src="img/g5.jpg" alt="Drzwi w ścianie z płyt warstwowych, realizacja MDS Multiserwis" width="1464" height="1984" loading="lazy" decoding="async">
+      <figcaption>Drzwi w obudowie z płyt warstwowych</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="sec bg-sunken">
+  <div class="wrap area">
+    <div class="reveal">
+      <span class="eyebrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 7.2 8 3l6 4.2M2 10.6 8 6.4l6 4.2M2 14 8 9.8l6 4.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Obszar działania</span>
+      <h2>Pracujemy z bazy w Przygradowie.</h2>
+    </div>
+    <div class="reveal">
+      <div class="col"><h3>Świętokrzyskie</h3><p>Baza firmy jest w Przygradowie. Zasięg dojazdu ustalamy przy wycenie, więc zapytaj także o zlecenia dalej od bazy.</p></div>
+      <div class="col"><h3>Dla kogo</h3><p>Klienci indywidualni, firmy i generalni wykonawcy, którym potrzebna jest ekipa do montażu.</p><a class="link-u" href="tel:+48733123294">+48 733 123 294</a></div>
+    </div>
+    <div class="map-col reveal">
+      <iframe class="map" title="Obszar działania - Przygradów i okolice" src="https://maps.google.com/maps?q=MDS%20Multiserwis%20Przygrad%C3%B3w&amp;z=10&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="sec bg-white">
+  <div class="wrap faq-grid">
+    <div class="side reveal">
+      <span class="eyebrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 7.2 8 3l6 4.2M2 10.6 8 6.4l6 4.2M2 14 8 9.8l6 4.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Pytania</span>
+      <h2>Najczęstsze pytania</h2>
+      <p>Nie ma tu Twojego pytania? Odpowiemy przez telefon: <a class="link-u" href="tel:+48733123294">+48 733 123 294</a></p>
+    </div>
+    <div class="faq reveal">
+      <details><summary>Bierzecie też małe zlecenia?<i aria-hidden="true"></i></summary><p>Tak. Robimy duże montaże hal i konstrukcji, ale bierzemy też jednodniowe naprawy dla klientów indywidualnych i firm. Każde zlecenie wyceniamy osobno.</p></details>
+      <details><summary>Jak wygląda wycena?<i aria-hidden="true"></i></summary><p>Najpierw rozmowa o tym, co jest do zrobienia, gdzie i na kiedy. Potem przyjeżdżamy albo przeglądamy dokumentację i ustalamy zakres. Cenę znasz przed rozpoczęciem pracy.</p></details>
+      <details><summary>Pracujecie według dokumentacji technicznej?<i aria-hidden="true"></i></summary><p>Tak, czytamy dokumentację i montujemy zgodnie z nią. Jeśli na budowie wyjdzie coś nieprzewidzianego, szukamy praktycznego rozwiązania razem z inwestorem.</p></details>
+      <details><summary>Współpracujecie z generalnymi wykonawcami?<i aria-hidden="true"></i></summary><p>Tak. Obsługujemy klientów indywidualnych, firmy i generalnych wykonawców, którym potrzebna jest dodatkowa ekipa do montażu.</p></details>
+      <details><summary>Jaki obszar obsługujecie?<i aria-hidden="true"></i></summary><p>Baza firmy jest w Przygradowie w województwie świętokrzyskim. Zasięg dojazdu ustalamy przy wycenie, więc zapytaj także o zlecenia dalej od bazy.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap cta-in">
+    <div class="reveal">
+      <span class="eyebrow on-dark"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 7.2 8 3l6 4.2M2 10.6 8 6.4l6 4.2M2 14 8 9.8l6 4.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Współpraca</span>
+      <h2 style="margin-top:1rem">Masz halę albo konstrukcję do zmontowania?</h2>
+      <p>Odezwij się, omówimy zakres i przedstawimy konkretną wycenę.</p>
+    </div>
+    <div class="row reveal">
+      <a class="btn btn-glow" href="kontakt.html">Zapytaj o wycenę <span>→</span></a>
+      <a class="btn btn-line" href="tel:+48733123294">+48 733 123 294</a>
     </div>
   </div>
 </section>
@@ -169,24 +332,32 @@
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand">
-        <div class="name">MDS Multiserwis</div>
-        <p>Montujemy i naprawiamy hale, garaże, wiaty i zadaszenia. Konstrukcje stalowe, płyty warstwowe, obróbki i poszycia.</p>
+        <a class="brand" href="index.html"><img class="brand-logo" src="img/logo.jpg" alt="MDS Multiserwis" width="1023" height="1023" loading="lazy" decoding="async"><span>MDS<small>MULTISERWIS</small></span></a>
+        <p>Montaż i naprawy hal, garaży, wiat i zadaszeń. Konstrukcje stalowe, płyty warstwowe, obróbki i poszycia.</p>
       </div>
-      <div class="foot-col">
+      <div class="col">
         <h4>Nawigacja</h4>
+        <a href="index.html">Start</a>
         <a href="oferta.html">Oferta</a>
         <a href="realizacje.html">Realizacje</a>
-        <a href="o-nas.html">O nas</a>
+        <a href="o-nas.html">O nas</a>
         <a href="kontakt.html">Kontakt</a>
       </div>
-      <div class="foot-col">
+      <div class="col">
+        <h4>Usługi</h4>
+        <a href="oferta.html">Konstrukcje stalowe</a>
+        <a href="oferta.html">Hale, garaże, wiaty</a>
+        <a href="oferta.html">Płyty warstwowe i obróbki</a>
+        <a href="oferta.html">Przygotowanie terenu</a>
+      </div>
+      <div class="col">
         <h4>Kontakt</h4>
         <a href="tel:+48733123294">+48 733 123 294</a>
         <a href="mailto:biuro@mds24.pl">biuro@mds24.pl</a>
         <p>Przygradów, województwo świętokrzyskie</p>
-      <div class="foot-soc">
-        <a class="soc" href="https://www.facebook.com/p/MDS-Multiserwis-61585844955465/" target="_blank" rel="noopener" aria-label="Facebook - MDS Multiserwis"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" fill="currentColor"/></svg></a>
-      </div>
+        <div class="foot-soc">
+          <a class="soc" href="https://www.facebook.com/p/MDS-Multiserwis-61585844955465/" target="_blank" rel="noopener" aria-label="Facebook - MDS Multiserwis"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" fill="currentColor"/></svg></a>
+        </div>
       </div>
     </div>
     <div class="foot-bot">
@@ -194,10 +365,12 @@
       <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
     </div>
   </div>
+  <div class="foot-mark" aria-hidden="true"><span>M</span><span>D</span><span>S</span></div>
 </footer>
-<div class="sticky-call"><a class="sc-call" href="tel:+48733123294"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Zapytaj o wycenę</a></div>
+<div class="sticky-call"><a class="sc-call" href="tel:+48733123294"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Zapytaj o wycenę</a></div>
 <div class="demo-wazne" data-do="2026-11-19" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
+<div class="lb" id="lb" aria-hidden="true"><button type="button" aria-label="Zamknij">×</button><img alt=""></div>
 
-<script src="assets/main.js"></script>
+<script src="assets/main.js?v=sw1"></script>
 </body>
 </html>
